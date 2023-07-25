@@ -4,8 +4,21 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 390px) {
+  body {
+    background-color: bisque;
+  }
+  h3 {
+    color: #fffbfd;
+    opacity: none;
+  }
+}
+
 body {
   margin-top: 100px;
+  background-image: url("../images/beachSunset.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 h1,
