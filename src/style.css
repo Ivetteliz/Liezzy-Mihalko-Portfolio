@@ -13,6 +13,33 @@
     color: #fffbfd;
     opacity: none;
   }
+
+  .mobile-homepage-header {
+    margin-top: -115px;
+    color: black;
+    font-weight: 900;
+  }
+
+  .about-header {
+    font-size: 80px;
+  }
+
+  .contactPage-header {
+    font-size: 45px;
+    margin-top: -37px;
+  }
+
+  .businessCard {
+    margin-top: 80px;
+  }
+
+  .navbar-toggler {
+    background-color: orange;
+  }
+  .navbar-collapse {
+    background-color: orange;
+    opacity: 100;
+  }
 }
 
 body {
@@ -75,43 +102,37 @@ p {
   margin: 20px;
 }
 
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .navbar-brand:hover {
   color: var(--primary-color);
 }
 
-.email {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 15px;
-  text-decoration: none;
+.nav-link:hover {
+  color: var(--primary-color);
 }
 
-#contact-info {
-  font-size: 30px;
+.contactMe-header {
+  font-size: 70px;
+}
+
+.contact-me {
+  font-size: 40px;
+  font-family: var(--font-family);
+}
+
+.email-icon {
+  margin-top: 5px;
+  color: var(--primary-color);
+}
+
+.email-link {
+  color: #4f006c;
+}
+
+.email-link:hover {
+  color: black;
+}
+
+.businessCard {
+  font-family: var(--font-family);
+  margin-top: 70px;
 }
